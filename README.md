@@ -68,3 +68,6 @@ A tool that builds custom wordlists using unique words from a source PDF documen
     * Add functionality to support other file types for source file
     * Add option to discard email addresses
     * Improve word detection through RegEx patterns
+    * Add options to dump emails and/or URLs to a file
+    * Add option to dump ignored words to a file
+    * Expand on the included common words list
