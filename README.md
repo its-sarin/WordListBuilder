@@ -1,6 +1,9 @@
 # WordListBuilder
 A tool that builds custom wordlists using unique words from a source PDF document. The built wordlist is automatically sorted by appearance frequency.
 
+## Required Packages:
+[PyPDF2](https://github.com/py-pdf/PyPDF2)
+
 ## Install:
 
     $ git clone https://github.com/its-sarin/WordListBuilder.git
