@@ -73,6 +73,7 @@ def read_pages():
                         continue
                     else:
                         ignore = True
+                        ignored_words.append(word)
                         break
 
             # if this word is flagged to ignore, we move on
