@@ -1,2 +1,2 @@
 # WordListBuilder
-A tool for extracting unique words from documents and building a wordlist using those words
+A tool for extracting unique words from PDF documents in order to build a custom wordlist
