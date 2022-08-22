@@ -24,6 +24,12 @@ A tool that builds custom wordlists using unique words from a source PDF documen
     # use a custom common words list to be excluded from final output (list should be line-delimited)
     $ ./wordlistbuilder.py --common ~/path/to/common/list ~/path/to/source/pdf ~/path/to/output/file
 
+    # discard URLs from final output
+    $ ./wordlistbuilder.py --no-url ~/path/to/source/pdf ~/path/to/output/file
+
+    # print list of ignored words to console with final output 
+    $ ./wordlistbuilder.py --ignored ~/path/to/source/pdf ~/path/to/output/file
+
 ## Example:
     
     $ ./wordlistbuilder.py --common ~/Documents/mylist.txt --start 1 ~/Documents/report.pdf ~/Documents/wordlist.txt
