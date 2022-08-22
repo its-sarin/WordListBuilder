@@ -1,5 +1,5 @@
 # WordListBuilder
-A tool that builds custom wordlists using unique words from a source PDF document
+A tool that builds custom wordlists using unique words from a source PDF document. The built wordlist is automatically sorted by appearance frequency.
 
 ## Install:
 
@@ -35,7 +35,7 @@ A tool that builds custom wordlists using unique words from a source PDF documen
     $ ./wordlistbuilder.py --common ~/Documents/mylist.txt --start 1 ~/Documents/report.pdf ~/Documents/wordlist.txt
     $ File created at: /home/user/Documents/wordlist.txt
     
-## Help output
+## Help output:
 
     usage: wordlistbuilder.py [-h] [--common PATH_TO_COMMON_WORDS] [--start START_PAGE_NUM]
                           [--end END_PAGE_NUM] [--no-url [SHOW_NO_URL]] [--ignored [SHOW_IGNORED]]
@@ -60,3 +60,8 @@ A tool that builds custom wordlists using unique words from a source PDF documen
       --ignored [SHOW_IGNORED], -i [SHOW_IGNORED]
                             Print list of ignored words after wordlist is built
 
+ ## Todo:
+ 
+    * Add functionality to support other file types for source file
+    * Add option to discard email addresses
+    * Improve word detection through RegEx patterns
